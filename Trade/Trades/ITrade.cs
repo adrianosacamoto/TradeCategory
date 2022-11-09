@@ -4,7 +4,7 @@ namespace TradeCategory.Trades
 {
     public interface ITrade
     {
-        DateTime ReferenceDate { get; set; }
+        DateTime ReferenceDate { get; }
         double Value { get; }
         string ClientSector { get; }
         DateTime NextPaymentDate { get; }
